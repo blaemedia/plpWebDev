@@ -19,7 +19,7 @@
       }
 
       #gallery {
-        background-color: #BEFFF7;
+        display: inline;
         height:400px;
         color: black;
         padding: 40px;
@@ -94,7 +94,6 @@
             font-size: 2rem;
             font-family: inter;
             color: #6499E9
-
     }
 
     #content{
@@ -107,8 +106,8 @@
 
     #containerMenuContent{
 
-        display: flex;
-        flex-direction: column;
+    display: inline-block;
+    flex-direction: column;
     }
 
     #innerMenuBoxOne{
@@ -127,7 +126,8 @@
     }
 
     #menuTextContainer{ 
-        text-align: center;
+        display: flex;
+        justify-content: center;
         background-color: 6499e9 ;
         height: 3rem;
         width: 12rem;
@@ -137,11 +137,12 @@
         background-color: #6499E9;
         border-radius: .4rem;
     }
+
+    
    
 
     #menuText{
-        
-            
+           
             font-size: 1rem;
             font-family: inter;
             color: #befff7;
@@ -150,8 +151,6 @@
 
 
       #menu{
-        
-        
         height:200px;
         max-width: 100%;
         padding: 40px;
@@ -230,7 +229,7 @@
                         <a href="https://www.pexels.com/search/aquatic%20life/">
                         <img src="pexels-photo-tortoise.png" alt="" id="galImg">
                     </a>
-                    <p id="galText">Acquatic</p>
+                    <p id="galText" >Acquatic</p>
                     </div>
                 </div>
           
