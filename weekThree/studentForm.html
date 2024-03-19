@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+
+        #btnContainer{
+             
+            display:inline-flex;
+            justify-content: space-between;
+            max-width:44%;
+            margin-left: 7.4rem;
+        }
+
+        #lg{
+            
+            display: inline-flex;
+            flex-direction: column;
+            border-radius: .6rem;
+            max-width: .2rem;
+        }
+
+       
+
+        #nameContainer{
+            
+            margin-top: 1rem;
+            display:inline-flex;
+            gap: 4.4rem;
+            max-width: 100%; 
+            margin-bottom:1rem
+            
+        }
+
+        #dobContainer{
+            display: inline-flex;
+            gap: 1.6rem;
+            max-width: 100%; 
+            margin-bottom:1rem
+        }
+
+        #genderContainer{
+            display: inline-flex;
+            gap: 4rem;
+            max-width: 100%; 
+            margin-bottom:1rem
+        }
+
+        #addContainer{
+            display: inline-flex;
+            gap: 3.7rem;
+            max-width: 100%; 
+            margin-bottom:1rem
+        }
+
+        #emailContainer{
+            display: inline-flex;
+            gap: 1.2rem;
+            max-width: 100%; 
+            margin-bottom:1rem
+        }
+
+        #courseContainer{
+            display: inline-flex;
+            gap: 4.2rem;
+            max-width: 100%; 
+            margin-bottom:1rem
+        }
+    
+    </style>
+</head>
+<body>
+    
+    <div id="formContainer">
+    <form id="formReg"> 
+     <fieldset id="lg">
+        <legend> Student Registration Form</legend>
+            <div id ="nameContainer">   
+                <label for="name" id="namelabel">Name:</label> 
+                <input type="text" id="html" id="nametext"> 
+
+            </div>
+
+            <div id="dobContainer">
+                <label for="name">Date of Birth:</label> 
+                <input type="text" id="html" name="dobtext">
+            </div>
+                
+
+               
+            <div id="genderContainer">
+                <label for="gender">Gender: </label>
+                <select gender="genderSel" id="genderSelVal">
+                    <option value="default">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select> 
+            </div>
+
+            <div id ="addContainer">
+                <label for="name">Address:</label> 
+                <input type="text" id="html" name="fav_language" > 
+            </div>
+               
+            
+            <div id="emailContainer">
+                <label for="name">Email Address:</label> 
+                <input type="text" id="html" name="fav_language" >
+            </div>
+                
+            <div id="courseContainer">
+                <label for="course">Course:</label>
+                <select gender="courseSel" id="courseSelVal">
+                    
+                <option value="default">Select course</option>
+                <option value="python">python</option>
+                <option value="webDev">Dart & Flutter</option>
+                <option value="webDev">Web Development</option>
+                <option value="database">Database</option>s
+                <option value="entrepreneur">Entrepreneurship</option>
+                <option value="database">Database</option>
+                <option value="entrepreneur">Entrepreneurship</option>
+                <option value="swe">Software Engineering</option>
+                </select> <br> <br>
+            </div>
+                
+            <div id="btnContainer">
+                <button type="button">Register</button>
+                <button type="button">Cancel</button>
+            </div>
+
+                
+        
+        </fieldset>
+    </form>
+
+</div>
+
+</legend>
+</body>
+</html>
