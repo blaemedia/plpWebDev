@@ -1,0 +1,154 @@
+
+body{
+    background-color: #FFF7F7 ;
+    margin-top:0vh;
+    margin-bottom:0vh;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    min-height: 100vh;
+}
+
+.myName{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #204969;
+    padding: 5rem;
+    color: #08FFC8;
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: bold;
+    
+}
+
+.thumbnail{
+    justify-content: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #08FFC8;
+    border-width: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8rem;
+    height: 8rem;
+}
+
+.Intro{
+    background-color: #DADADA;
+    padding: 4rem;
+    font-size: 1rem;
+    color: #204969;
+    font-family: poppins;
+    font-weight: regular;
+}
+
+.Introgra{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #204969;
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.skills{
+    background-color: #DADADA;
+    padding: 4rem;
+    font-size: 1rem;
+    color: #204969;
+    font-family: poppins;
+    font-weight: regular; 
+}
+
+.skillgra{
+    
+   
+    padding-bottom: 1rem;
+    color: #204969;
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.skillItem{
+    background-color: #08FFC8;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-top:.1rem  ;
+  
+}
+
+.Contact{
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #204969;
+    padding: 5rem;
+    color: #08FFC8;
+    font-size: 1rem;
+    font-family: poppins;
+    font-weight: regular;
+}
+
+.socialIcons{
+    padding-top: 1rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (min-width: 481px) {
+    body{
+        background-color: #FFF7F7 ;
+        margin-top:0vh;
+        margin-bottom:0vh;
+        margin-left: 15vh;
+        margin-right: 15vh;
+        min-height: 100vhs;
+    }
+
+    .myName{
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: space-between;
+        background-color: #204969;
+        padding: 5rem;
+        color: #08FFC8;
+        font-size: 2rem;
+        font-family: poppins;
+        font-weight: bold;
+        
+    }
+
+    .Contact{
+        display:flex;
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: space-between;
+        background-color: #204969;
+        padding: 5rem;
+        color: #08FFC8;
+        font-size: 1rem;
+        font-family: poppins;
+        font-weight: regular;
+    }
+
+    .thumbnail{
+        justify-content: center;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #08FFC8;
+        border-width: .2rem;
+       
+        width: 8rem;
+        height: 8rem;
+    }
+}
